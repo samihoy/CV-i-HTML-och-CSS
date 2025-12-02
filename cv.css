@@ -1,0 +1,123 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-size: 11pt;
+        background: #afaeae; /* just to see the page edges on screen */
+}
+
+a {
+  color: inherit;
+}
+
+.pdf-page{
+    width: 210mm;
+    height: 297mm;
+    margin: 0 auto; 
+    background: white;
+    box-sizing: border-box;
+    
+    display: grid;
+    grid-template-columns: 25% 75%;
+}
+
+/*---------------------------------------------------------------------*/
+
+.left-side{
+    background-color: #272C35;
+    overflow-wrap: break-word;
+    word-break: break-word;
+    
+}
+
+.profile-picture{
+    margin: 5%;
+    
+}
+
+.profile-picture img{
+    width: 100%;      
+    height: 200px;  
+    display: block;  
+    overflow: hidden;
+    border-radius: 50%;   
+}
+
+.left-side h2{
+    background-color: #373D48;
+}
+
+.left-side div{
+    margin: 5%;
+}
+
+/*---------------------------------------------------------------------*/
+
+.main{
+    padding: 10px;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100%;     
+}
+
+.name{
+    font-size: 24pt;
+    font-weight: 700;
+    
+
+}
+.presentation{
+    border-bottom: 2px solid black;
+    
+    padding-bottom: 10px;
+    border-top: 2px solid black;
+    padding-top: 4px;
+
+}
+
+.main h2{
+
+    font-size: 13pt;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-weight: bold; 
+
+}
+
+.main p{
+    font-size: 11pt;
+    line-height: 1.4;
+}
+
+.main-titels{
+    border-bottom: 2px solid black;
+    padding-bottom: 4px;
+    margin-bottom: 12px;
+}
+.main-paragraf-container{
+    border: 2px solid black;
+    padding: 5px;
+    border-radius: 6px; 
+}
+
+
+.education-list {
+  margin: 0;
+  padding-left: .5rem;
+  
+  list-style-position: inside;
+}
+
+.språk{
+    margin-top: auto;
+}
+
+
+
+/*---------------------------------------------------------------------*/
